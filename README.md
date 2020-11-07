@@ -1,4 +1,4 @@
-# (simple) ML Predict REST API with Docker
+# (simple) ML Predict API with Docker
 
 This project serves as template for an dockerized flask ML application over two serving methods: local or apache2. The api provides two endpoints, either by file or param directly.
 
