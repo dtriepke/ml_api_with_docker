@@ -15,9 +15,11 @@ The api based on `flask`. **For api testing and documentation swagger from `flas
 ## Docker
 This project provides two hosting methods `local` and `apache`. For launching the ml api with docker use the following commands:
 
- `cd ./api_[server method]`  
- `docker build -t iris_predict .`   
- `docker run -p 0.0.0.0:5000:5000/tcp --name my_rl_iris_api iris_predict`    
+```bash
+ $ cd ./api_[server method]  
+ $ docker build -t iris_predict .   
+ $ docker run -p 0.0.0.0:5000:5000/tcp --name my_rl_iris_api iris_predict
+ ```
 
 *The last command starts a new docker container*
 
